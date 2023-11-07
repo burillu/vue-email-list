@@ -32,7 +32,7 @@
           <div v-if="emailList.length>9">
             <ul class="list-group">
 
-              <li v-for="(email, index) in emailList" class="list-group-item">{{email}}</li>
+              <li v-for="(email, index) in emailList" class="list-group-item">{{ (index+1)+'. '+ email}}</li>
 
             </ul>
           </div>
