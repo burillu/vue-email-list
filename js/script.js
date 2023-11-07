@@ -17,20 +17,6 @@ createApp({
 
     })
   }
-  },
-  computed:{
-    // emailList(){
-    //   const list=[];
-    //   for (let index = 0; index < 10; index++) {
-    //     //const element = array[index];
-    //      axios.get(this.apiUrl).then((resp) => {
-    //     const email = resp.data.response
-    //     list.push(email);
-  
-    //   })
-    //     return list;
-    //   }
-     
-    // }
   }
+  
 }).mount('#app')
